@@ -20,6 +20,7 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
+import { Parallax } from "react-parallax";
 
 // core components
 
@@ -42,37 +43,27 @@ function LandingPageHeader() {
 
   return (
     <>
-      <div
-        style={{
-          backgroundImage:
-            "url(" + require("assets/img/daniel-olahh.jpg").default + ")",
-        }}
-        className="page-header"
-        data-parallax={true}
-        ref={pageHeader}
+      <Parallax
+        blur={0}
+        bgImage={`https://images.unsplash.com/photo-1619963258837-b83f3406cfcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80`}
+        bgImageAlt="the cat"
+        strength={200}
+        style={{ height: "100%", minHeight: "100vh" }}
       >
-        <div className="filter" />
-        <Container>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+          }}
+        >
           <div className="motto text-center">
-            <h1>Example page</h1>
-            <h3>Start designing your landing page here.</h3>
-            <br />
-            <Button
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              className="btn-round mr-1"
-              color="neutral"
-              target="_blank"
-              outline
-            >
-              <i className="fa fa-play" />
-              Watch video
-            </Button>
-            <Button className="btn-round" color="neutral" type="button" outline>
-              Download
-            </Button>
+            <h1>Delta Fowydh Designs</h1>
+            <h3>Printing and Embroidery.</h3>
           </div>
-        </Container>
-      </div>
+        </div>
+      </Parallax>
     </>
   );
 }

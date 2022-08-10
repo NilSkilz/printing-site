@@ -27,7 +27,7 @@ import {
   CardTitle,
   Form,
   Input,
-  InputGroupAddon,
+  // InputGroupAddon,
   InputGroupText,
   InputGroup,
   Container,
@@ -57,93 +57,82 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Let's talk product</h2>
+                <h2 className="title">What we do</h2>
                 <h5 className="description">
-                  This is the paragraph where you can write more details about
-                  your product. Keep you user engaged by providing meaningful
-                  information. Remember that by this time, the user is curious,
-                  otherwise he wouldn't scroll to get here. Add a button if you
-                  want the user to see more.
+                  As experts in creating customised products, we pride ourselves
+                  on bringing people together through customised clothing. Using
+                  cutting edge print and embroidery technology, we create high
+                  quality products for businesses, clubs, teams, charities and
+                  groups of all sizes.
                 </h5>
                 <br />
-                <Button
+                {/* <Button
                   className="btn-round"
                   color="info"
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
                   See Details
-                </Button>
+                </Button> */}
               </Col>
             </Row>
             <br />
             <br />
             <Row>
-              <Col md="3">
+              <Col md="4">
                 <div className="info">
                   <div className="icon icon-info">
                     <i className="nc-icon nc-album-2" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Beautiful Gallery</h4>
+                    <h4 className="info-title">Vinyl Printing</h4>
                     <p className="description">
-                      Spend your time generating new ideas. You don't have to
-                      think of implementing.
+                      Viynl printing enables blocks of colour to be transferred
+                      onto fabric using a heat press. There is a wide variety of
+                      vinyls available that give different results.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </Col>
-              <Col md="3">
+              <Col md="4">
                 <div className="info">
                   <div className="icon icon-info">
                     <i className="nc-icon nc-bulb-63" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">New Ideas</h4>
+                    <h4 className="info-title">Embroidery</h4>
                     <p>
-                      Larger, yet dramatically thinner. More powerful, but
-                      remarkably power efficient.
+                      Embroidery is the process by which a design is sewn onto a
+                      garment using a computerised embroidery machine. We use
+                      industrial embroidery machines to achieve a high quality,
+                      long lasting finish.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </Col>
-              <Col md="3">
+              <Col md="4">
                 <div className="info">
                   <div className="icon icon-info">
                     <i className="nc-icon nc-chart-bar-32" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Statistics</h4>
+                    <h4 className="info-title">Sumblimation Printing</h4>
                     <p>
-                      Choose from a veriety of many colors resembling sugar
-                      paper pastels.
+                      Sublimation printing uses heat to essentially bring ink
+                      and fabric together as one. First, a design is printed
+                      onto special paper. The inks that are used turn into gas
+                      when brought under heat, then combine with the fabric and
+                      permanently print onto the fabric
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-sun-fog-29" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Delightful design</h4>
-                    <p>
-                      Find unique and handmade delightful designs related items
-                      directly from our sellers.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </Col>
@@ -155,7 +144,7 @@ function LandingPage() {
             <h2 className="title">Let's talk about us</h2>
             <Row>
               <Col md="4">
-                <Card className="card-profile card-plain">
+                {/* <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
@@ -206,7 +195,7 @@ function LandingPage() {
                       <i className="fa fa-linkedin" />
                     </Button>
                   </CardFooter>
-                </Card>
+                </Card> */}
               </Col>
               <Col md="4">
                 <Card className="card-profile card-plain">
@@ -215,7 +204,7 @@ function LandingPage() {
                       <img
                         alt="..."
                         src={
-                          require("assets/img/faces/joe-gardner-2.jpg").default
+                          "https://scontent-lcy1-1.xx.fbcdn.net/v/t1.18169-9/23795615_10155262136759117_6332077736641450846_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=oxgw3WsVevIAX8zFsqY&_nc_ht=scontent-lcy1-1.xx&oh=00_AT_-nuSvwl58HsZn8D28UgHYosQBKBvzc-5AM_PPz2l8hQ&oe=6318FA32"
                         }
                       />
                     </a>
@@ -223,15 +212,12 @@ function LandingPage() {
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Sophie West</CardTitle>
+                        <CardTitle tag="h4">Desiree Bant</CardTitle>
                         <h6 className="card-category">Designer</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
-                      others. No one can whistle a symphony. It takes an
-                      orchestra to play it.
+                      Use this paragraph to say a bit about you personally
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
@@ -263,7 +249,7 @@ function LandingPage() {
                 </Card>
               </Col>
               <Col md="4">
-                <Card className="card-profile card-plain">
+                {/* <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
@@ -315,7 +301,7 @@ function LandingPage() {
                       <i className="fa fa-linkedin" />
                     </Button>
                   </CardFooter>
-                </Card>
+                </Card> */}
               </Col>
             </Row>
           </Container>
@@ -330,22 +316,22 @@ function LandingPage() {
                     <Col md="6">
                       <label>Name</label>
                       <InputGroup>
-                        <InputGroupAddon addonType="prepend">
+                        {/* <InputGroupAddon addonType="prepend">
                           <InputGroupText>
                             <i className="nc-icon nc-single-02" />
                           </InputGroupText>
-                        </InputGroupAddon>
+                        </InputGroupAddon> */}
                         <Input placeholder="Name" type="text" />
                       </InputGroup>
                     </Col>
                     <Col md="6">
                       <label>Email</label>
                       <InputGroup>
-                        <InputGroupAddon addonType="prepend">
+                        {/* <InputGroupAddon addonType="prepend">
                           <InputGroupText>
                             <i className="nc-icon nc-email-85" />
                           </InputGroupText>
-                        </InputGroupAddon>
+                        </InputGroupAddon> */}
                         <Input placeholder="Email" type="text" />
                       </InputGroup>
                     </Col>

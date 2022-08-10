@@ -27,11 +27,11 @@ function DemoFooter() {
     <footer className="footer footer-black footer-white">
       <Container>
         <Row>
-          <nav className="footer-nav">
+          {/* <nav className="footer-nav">
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=pkr-footer"
+                  href="https://www.robstokes.co.uk"
                   target="_blank"
                 >
                   Creative Tim
@@ -54,11 +54,11 @@ function DemoFooter() {
                 </a>
               </li>
             </ul>
-          </nav>
+          </nav> */}
           <div className="credits ml-auto">
             <span className="copyright">
               © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+              <i className="fa fa-heart heart" /> by Rob Stokes
             </span>
           </div>
         </Row>
