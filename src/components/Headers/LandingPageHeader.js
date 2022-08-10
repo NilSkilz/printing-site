@@ -19,7 +19,6 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container } from "reactstrap";
 import { Parallax } from "react-parallax";
 
 // core components
